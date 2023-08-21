@@ -109,3 +109,47 @@ if(t>=37.5){
 else{
     console.log("no-fever")
 }
+// blood pressure
+bp=140
+dp=100
+if((bp<120)&&(dp<80)){
+    console.log("normal")
+}
+else if((120<=bp>=129)&&(db<80)){
+    console.log("evaluated")
+}
+else if((130<=bp>=139)&&(80<=dp>=89)){
+    console.log("stage-1 hypertension")
+}
+else{
+    console.log("stage-2 hypertension")
+}
+// income tax
+i=1800000
+if(i<=25000){
+    console.log("no tax")
+}
+else if(25000<i>=500000){
+    console.log("low tax bracket")
+}
+else if(500000<i>=1000000){
+    console.log("middle tax bracket")
+}
+else{
+    console.log('high income tax bracket')
+}
+// income and age
+i=200000 
+a=35
+if((18>=a)&&(a>=65)){
+    console.log('no retirement saving needed')
+}
+else if(i>=500000){
+    console.log("low retirement goal")
+}
+else if((i>=500000)&& (i<=2000000)){
+    console.log('middle level retirement goal')
+}
+else{
+    console.log('high level retirement goal')
+}
