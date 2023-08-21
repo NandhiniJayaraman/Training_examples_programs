@@ -17,16 +17,6 @@ if((x1!=x2)&&(y1!=y2)){
     else{
         print('not overlap')
     }
-    // 
-
-
-
-
-
-
-
-
-
 }
 else{
     console.log("not a rectangular")
