@@ -340,3 +340,74 @@ else if(per>=40){
 else {
     console.log(per,"Grade F")
 }
+// gross salery 
+bs=10000
+if(bs<=10000){
+    gra=bs*0.2
+    da=bs*0.8
+    gs=bs+gra+da
+    console.log("gross salary",gs)
+}
+else if(10000<bs>=20000){
+    gra=bs*0.25
+    da=bs*0.9
+    gs=bs+gra+da
+    console.log("gross salary",gs)
+}
+else{
+    gra=bs*0.3
+    da=bs*0.95
+    gs=bs+gra+da
+    console.log("gross salary",gs)
+}
+// electric unit 
+eu=170
+if(1<=eu>=50){
+    a=eu*0.50
+    total=a*0.2
+    eb=a+total
+    console.log("electric unit amount",eb)
+}
+else if(50<=eu>=150){
+    a=eu*0.75
+    total=a*0.2
+    eb=a+total
+    console.log("electric unit amount",eb)
+}
+else if(150<=eu>=250){
+    a=eu*1.20
+    total=a*0.2
+    eb=a+total
+    console.log("electric unit amount",eb)
+}
+else{
+    a=eu*1.50
+    total=a*0.2
+    eb=a+total
+    console.log("electric unit amount",eb)
+}
+// voting age
+a=12
+if(n>=18){
+    console.log("eligible to vote")
+}
+else{
+    console.log("not eligible to vote")
+}
+// century find
+y=2000
+if(y%100==0){
+    console.log("this is century")
+}
+else{
+    console.log("not a century year")
+}
+// pass and fail
+m=66
+if(50<=m<=100){
+    console.log('pass')
+}
+else{
+    console.log('fail')
+}
+// password validation
