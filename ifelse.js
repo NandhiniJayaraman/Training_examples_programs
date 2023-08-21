@@ -153,3 +153,136 @@ else if((i>=500000)&& (i<=2000000)){
 else{
     console.log('high level retirement goal')
 }
+// cgpa grade system
+g=8
+if(g<=2){
+    console.log("acadamic probation")
+}
+else if((g>2.0)&&(g<=10)){
+    console.log("good standing")
+}
+else{
+    console.log("your grade point is wrong")
+}
+// credit score
+c=750
+if(c<600){
+    console.log("poor credit")
+}
+else if(600<=c<=699){
+    console.log("fair credit")
+}
+else if(700<=c<=799){
+    console.log("good credit")
+}
+else{
+    console.log("excellent credit")
+}
+// experience calci
+p=45
+e=5
+if((p<25)&&(e<1.0)){
+    console.log("entry level")
+}
+else if((25>=p>=30)&&(1.0>=e<5.0)){
+    console.log("junior")
+}
+else if((p<=40)&&(5.0>=e<10.0)){
+    console.log("senior")
+}
+else{
+    console.log("expert")
+}
+// positive or negative
+a=-8
+if((a=0)&&(a>0)){
+    console.log("positive")
+}
+else{
+    console.log("negative")
+}
+// divible of 5 and 11
+a=55
+if((a%5==0)&&(a%11==0)){
+    console.log(a,"is divisible of 5 and 11")
+}
+else{
+    console.log(a,"is not divisible of 5 and 11")
+}
+// alphapet or not
+a1='P'
+if((a1>='a')&&(a1<='z')){
+    console.log("its is alphapet")
+}
+else if((a1>='A')&&(a1<='Z')){
+    console.log("its is alphapet")
+}
+else{
+    console.log("not an alphapet")
+}
+// find the vowels or consonant
+letter="p"
+if((letter=='a')||(letter=='e')||(letter=='i')||(letter=='o')||(letter=='u')){
+    console.log("vowel")
+}
+else{
+    console.log("consonant")
+}
+// find out the char type
+n=34
+if((n>='a')&&(n<='z')){
+    console.log("lowercase")
+}
+else if((n>='A')&&(n<='Z')){
+    console.log("uppercase")
+}
+else if(n>=0){
+    console.log("positive number")
+}
+else if(n<0){
+    console.log("negative number")
+}
+else{
+    console.log("special chacracter")
+}
+// week wise day number
+a=5
+if(a==1){
+    console.log("monday")
+}
+else if(a==2){
+    console.log("tuesday")
+}
+else if(a==3){
+    console.log("wednesday")
+}
+else if(a==4){
+    console.log("thursday")
+}
+else if(a==5){
+    console.log("friday")
+}
+else if(a==6){
+    console.log("saturday")
+}
+else if(a==7){
+    console.log("sunday")
+}
+else{
+    console.log("not a day number")
+}
+// no of days in particular month
+n=13
+if((n==1)||(n==3)||(n==5)||(n==7)||(n==8)||(n==10)||(n==12)){
+    console.log("31 days")
+}
+else if((n==4)||(n==6)||(n==9)||(n==11)){
+    console.log("30 days")
+}
+else if(n==2){
+    console.log("28 or 29 days")
+}
+else{
+    console.log("not a month")
+}
+// 
