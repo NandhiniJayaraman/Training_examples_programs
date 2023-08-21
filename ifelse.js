@@ -411,3 +411,37 @@ else{
     console.log('fail')
 }
 // password validation
+// p='nans@8188'
+// if(p.length<=8){
+//     if((('a'<=p>='z')&&('A'<=p>='Z')&&('0'<=p>='9')&&(p=='@')||(p=='#')||(p=="$")||(p=='%')||(p=='&')||(p=='*')||(p=='(')||(p==')'))){
+//         console.log('valid password')
+//     }
+//     else{
+//         console.log('invalid password')
+//     }
+// }
+// else{
+//     console.log('invalid password')
+// }
+// divisible by 5 and 7
+a=35
+if((a%5==0)&&(a%7==0)){
+    console.log('divisible by 5 and 7')
+}
+else{
+    console.log("not divisible by 5 and 7")
+}
+// profit/loss
+selling_price=200
+buy_cost=300
+if(selling_price>buy_cost){
+    console.log('profit')
+}
+else if(selling_price<buy_cost){
+    console.log('loss')
+}
+else{
+    console.log('no loss and no profit')
+}
+
+
