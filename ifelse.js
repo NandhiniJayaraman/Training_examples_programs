@@ -285,4 +285,58 @@ else if(n==2){
 else{
     console.log("not a month")
 }
-// 
+// find triangle or not
+t1=60
+t2=60
+t3=60
+s=t1+t2+t3
+if(s==180){
+    console.log("it is a triangle")
+}
+else{
+    console.log("not a triangle")
+}
+// equilatral & isoscalar & scalar
+a=45
+b=45
+c=90
+s=a+b+c
+if(s==180){
+    if(a==b==c){
+        console.log("Equilatral triangle")
+    }
+    else if((a==b)||(a==c)||(b==c)){
+        console.log("isoscalar triangle")
+    }
+    else{
+        console.log("scalane triangle")
+    }
+}
+else{
+    console.log("this ponits not create triangle")
+}
+// percentage calculator
+phy=60
+che=90
+mat=90
+bio=45
+com=78
+per=((phy+che+mat+bio+com)/500)*100
+if(per>=90){
+    console.log(per,"Grade A")
+}
+else if(per>=80){
+    console.log(per,"Grade B")
+}
+else if(per>=70){
+    console.log(per,"Grade C")
+}
+else if(per>=60){
+    console.log(per,"Grade D")
+}
+else if(per>=40){
+    console.log(per,"Grade E")
+}
+else {
+    console.log(per,"Grade F")
+}
