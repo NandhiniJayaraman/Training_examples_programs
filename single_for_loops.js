@@ -66,4 +66,14 @@ for(i=0;i<s.length;i++){
 }
 console.log("vovwels count:",v_count)
 console.log("consonant count:",c_count)
-// 
+// frequency count
+a='amma'
+count=0
+for(i=0;i<a.length;i++){
+    for(j=0;j<a.length;j++){
+        if(a[i]==a[j]){
+            count++
+        }    }
+    console.log(a[i],count)
+    count=0
+}
