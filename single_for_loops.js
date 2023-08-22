@@ -77,3 +77,92 @@ for(i=0;i<a.length;i++){
     console.log(a[i],count)
     count=0
 }
+// smallest prime factor of given number
+n=20
+temp=[]
+min=temp[0]
+k=0
+for (i=2;i<=n;i++){
+    if(i%2!=0){
+        temp[k]=i
+        k++
+    }
+}
+console.log(temp[0])
+// negative number in given list
+a=[3,2,-1,4,6,-3,-2]
+count=0
+for(i=0;i<a.length;i++){
+    if(a[i]<0){
+        count++
+    }
+}
+console.log("negative number count:",count)
+// second smallest element
+a=[8,3,9,6,1]
+smallest=a[0]
+second_smallest=0
+for(i=0;i<a.length;i++){
+    if(a[i]<smallest){
+        second_smallest=smallest
+        smallest=a[i]
+    }
+}
+console.log(second_smallest)
+// print buzz and fizz
+for(i=1;i<=100;i++){
+    if(i%3==0){
+        console.log("fizz")
+    }
+    if(i%5==0){
+        console.log('buzz')
+    }
+    if((i%3==0)&&(i%5==0)){
+        console.log('fizzbuzz')
+    }
+}
+// add the posibile integer 1000 less and add the 3 and 5 multiplies
+for(i=1;i<=1000;i++){
+    if(i%3==0 && i%5==0){
+        sum=sum+i
+    }
+}
+console.log("positive numeber add value:",sum)
+// find each string length
+a=['nandhini','raghul','dennis','suriya','viswa']
+temp=[]
+k=0
+for(i=0;i<a.length;i++){
+    c=a[i]
+    l=c.length
+    temp[k]=l
+    k++
+    console.log(a[i],l)
+    c=0
+    l=0
+}
+// find the index number of given number
+a=[2,3,4,5,78,9,10]
+u=78
+for(i=0;i<a.length;i++){
+    if(a[i]==u){
+        console.log(i,'index of given number')
+        break
+    }
+}
+// product of all number
+a=[1,4,5,8]
+mul=1
+for(i=0;i<a.length;i++){
+    mul=mul*a[i]
+}
+console.log(mul)
+// print all leap year of given years
+start_year=1000
+end_year=2000
+for(i=start_year;i<=end_year;i++){
+    if((i%4==0)&&(i%100!=0)||(i%400==0)){
+        console.log(i)
+    }
+} 
+// 
