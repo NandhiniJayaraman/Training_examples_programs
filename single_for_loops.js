@@ -165,4 +165,59 @@ for(i=start_year;i<=end_year;i++){
         console.log(i)
     }
 } 
-// 
+// count the each charecter
+n='this is w3resource.com'
+a=0
+n1=0
+s=0
+s1=0
+for(i=0;i<n.length;i++){
+    if(0<=n[i]>=9){
+        n1++
+    }
+    if((n[i]==['a-z'])||(n[i]==['A-Z'])){
+        a++
+    }
+    if(n[i]==''){
+        s++
+    }
+    else{
+        s1++
+    }
+}
+// comapre two numbers
+n=25
+m=45
+if(n==n1){
+    console.log("twio number are equal")
+}
+else if(n!=m){
+    console.log("not equal ")
+}
+if(n>m){
+    console.log('n is larger number')
+}
+ if(m>n){
+    console.log("m is larger number")
+}
+// power of any number using loops
+base=4
+expo=3
+temp=base
+for(i=0;i<expo;i++){
+    temp=temp*base
+}
+console.log(temp)
+// find the factors of given number
+n=63
+for(i=0;i<=n;i++){
+    if(n%i==0){
+        console.log('factors',i)
+    }
+}
+// first and last charactor
+n=[5,6,7,8]
+first=n[0]
+last=n[n.length-1]
+console.log('first element',first)
+console.log('second element',last)
