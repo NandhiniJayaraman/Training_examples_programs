@@ -221,3 +221,39 @@ first=n[0]
 last=n[n.length-1]
 console.log('first element',first)
 console.log('second element',last)
+// add first 5 terms of odd number
+n=5
+sum=0
+count=0
+for(i=1;i>0;i++){
+    if(i%2!=0){
+        count++
+        sum=sum+i
+        if(count==n){
+            break
+        }
+    }
+  
+}
+console.log(sum)
+// add series like 1+1\2+1\3+1\4
+sum=0
+for(i=1;i<=5;i++){
+    a=1/i
+    sum=sum+a
+}
+console.log(sum)
+// sum of series
+sum=0
+for(i=1;i<=5;i++){
+    c=i*i
+    sum=sum+c
+    console.log(i,'*',i,'=',c)
+}
+console.log(sum)
+// cubr of the number
+n=5
+for(i=1;i<=5;i++){
+    c=i**3
+}
+console.log(n,'cube of number:',c)

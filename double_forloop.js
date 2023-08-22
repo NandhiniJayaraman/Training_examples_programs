@@ -53,3 +53,48 @@ for (i=1;i<= 4;i++){
           }
       console.log(s)           
    }
+// non-prime findout outof 25
+np=0
+n=25
+for(i=2;i<=25;i++){
+    for(j=2;j<i;j++){
+        if(i%j==0){
+            np=np+i
+            break
+        }
+    }
+}
+// calculate the series
+sum=0
+for(i=1;i<=5;i++){
+    for(j=1;j<=i;j++){
+        sum=sum+j
+    }
+    console.log(i,sum)
+}
+console.log(sum)
+// multiplication table 1 to 5
+n=5
+for(i=1;i<=5;i++){
+    for(j=1;j<=10;j++){
+        c=i*j
+        console.log(i,'*',j,'=',c)
+    }
+}
+// display and ad dthe series
+n=0
+for(i=1;i<=5;i++){
+    c=10**i
+    console.log(c-1)
+    n=(c-1)+n
+}
+console.log('add the value of series',n)
+// display and add the series
+sum=0
+temp=0
+for(i=1;i<=5;i++){
+    temp=(temp*10)+1
+    sum=sum+temp
+}
+console.log(sum)
+// 100 to 200
