@@ -98,3 +98,69 @@ for(i=1;i<=5;i++){
 }
 console.log(sum)
 // 100 to 200
+for(i=100;i<=200;i++){
+    if(i%9==0){
+        console.log(i)
+        sum=sum+i
+    }
+}
+console.log(sum)
+// lcm and hcf
+first=15
+second=25
+if(first>second){
+    smallest=second
+}
+else{
+    smallest=first
+}
+for(i=1;i<smallest;i++){
+    if(first%i==0 && second%i==0){
+        console.log(i)
+        hcf=i
+        lcm=((first*second)/hcf)
+    }
+}
+console.log('hcf',hcf)
+console.log('lcm',lcm)
+// A>P series
+a=1
+n=3
+d=2
+sum=0 
+for(i=a,j=1;j<=n;i+=d,j++){
+
+sum=sum+i
+}  
+console.log(sum)
+// G.P series
+a=1
+n=3
+d=2
+s=0 
+for(i=1;i<=n;i++){
+    a=a*d
+    s=s+a
+    console.log(a)
+}
+console.log(s)
+// A.P series
+a=1
+n=3
+d=2
+s=0 
+for(i=1;i<=n;i++){
+    a=a+d
+    s=s+a
+    console.log(a)
+}
+console.log(s)
+// express as sum of prime number
+n=20
+s=0
+for(i=2;i<=n;i++){
+    if(n%i==0){
+        s=s+i
+    }
+}
+console.log('sum of prime number',s)
