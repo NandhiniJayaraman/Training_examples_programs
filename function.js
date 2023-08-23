@@ -39,7 +39,7 @@ function max(b){
     return m
 }
 console.log(max([2,3,4,5,6,7]))
-// reverse the string
+// reverse the string / palindrome
 function reverse(a){
     str=''
     for(i=a.length-1;i>=0;i--){
@@ -47,4 +47,79 @@ function reverse(a){
     }
     return str
 }
-console.log(reverse('nans'))
+b="nandhini"
+console.log(reverse(b))
+if(reverse(b)==b){
+    console.log('it is a palindrome')
+}
+else{
+    console.log('not a palindrome')
+}
+// reverse the number
+function rever(a){
+    temp=[]
+    k=0
+    for(i=a.length-1;i>=0;i--){
+        temp[k]==a[i]
+        k++
+    }
+    return temp
+}
+console.log(rever([2,5,4,3]))
+// area of circle
+function area(r){
+    a=((3.14)*(r**2))
+    return a
+}
+console.log(area(3))
+// average calculate
+function avg(list){
+    sum=0
+    for(i=0;i<list.length;i++){
+        sum=sum+list[i]
+    }
+    average=sum/list.length
+    return average
+}
+console.log(avg([2,3,4,5,6]))
+// prime or not
+function isprime(a){
+    found=false
+    for(i=2;i<=2;i++){
+        if(a%i==0){
+            found=true
+            break
+        }
+    }
+    return found
+}
+if(isprime(5)==false){
+    console.log('prime')
+}
+else{
+    console.log('not prime')
+}
+// celcius
+function celsius(n){
+    f=((n*(9/5)+32))
+    return f
+}
+console.log(celsius(72))
+// vowels
+function vowels(a){
+    count=0
+    for(i=0;i<a.length;i++){
+        if(a[i]=='a' || a[i]=='e' || a[i]=='i' || a[i]=='o' || a[i]=='u'){
+            count++
+        }
+    }
+    return count
+}
+console.log(vowels('nandhini'))
+// ascending order
+function asc(list){
+    min=list[0]
+    for(i=0;i<list.length;i++){
+        if()
+    }
+}
