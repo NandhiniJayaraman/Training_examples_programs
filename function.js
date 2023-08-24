@@ -228,3 +228,137 @@ function vol(r){
     return v
 }
 console.log(vol(7))
+// leap or not
+function isleap(y){
+    if((y%4==0)&&(y%400==0)||(y%100!=0)){
+        console.log('leap year')
+    }
+    else{
+        console.log('not leap year')
+    }
+}
+isleap(2000)
+// factorial number
+function fact(n){
+    if(n==1){
+        return 1
+    }
+    else{
+        return(n*fact(n-1))
+    }
+}
+console.log(fact(5))
+// area of rectnagule
+function rec(l,b){
+    a=l*b
+    return a 
+}
+console.log(rec(7,8))
+// common element in given list
+function common(list1,list2){
+    a=[]
+    k=0
+    for(i=0;i<list1.length;i++){
+        for(j=0;j<list2.length;j++){
+            if(list1[i]==list2[j]){
+                a[k]=list1[i]
+                k++
+            }
+            }
+        }
+    return a
+}
+console.log(common([3,5,4,6],[4,6,1,2]))
+// find the divider and add the divider
+function mul(n){
+    sum=0
+    for(i=1;i<n;i++){
+        if(n%i==0){
+            sum=sum+i
+        }
+    }
+    return sum
+}
+console.log(mul(10))
+// all average of even number in list
+// function average(n){
+//     count=0
+//     sum=0
+//     for(i=0;i<n.length;i++){
+//         if(i%2==0){
+//             count++
+//             sum=sum+i
+//         }
+//         avg=sum/count
+//     }
+//     return avg
+// }
+// a=[1,2,3,4,5]
+// console.log(average(a))
+// perimeter of rectangular
+function peri(l,w){
+    p=((l+w)*2)
+    return p
+}
+console.log(peri(7,2))
+// arithmatic sequence formula an=a1+(n-1)d
+function arith(a,b,c){
+    d=b-1
+    return (a+d*c)
+}
+console.log(arith(1,13,4))
+// gcd && lcm
+function gcd(a,b){
+    if(a>b){
+        small=b
+    }
+    else{
+        small=a
+    }
+    for(i=1;i<=small;i++){
+        if(a%i==0 && b%i==0){
+            gcd=i
+        }
+    }
+    lcm=((a*b)/gcd)
+    return lcm,gcd
+}
+console.log(gcd(23,67))
+// volume of rectangular prism
+function prism(a,b,c){
+    v=a*b*c
+    return v
+}
+console.log(prism(7,4,2))
+// two sorted in single sorted list
+// function merge(a,b){
+//     c=a+b
+//     for(i=0;i<c.length;i++){
+//         for(j=1;i<c.length;j++){
+//             if(c[i]>c[j]){
+//                 c[i]=c[j]
+//             }
+//         }
+//     }
+//     return c
+// }
+// console.log(merge([2,6,4,5,7],[3,5,4,6,7]))
+// 
+// rotate the list to the left given number positions
+// function rotate(list,n){
+//     temp=[]
+//     k=0
+//     for(i=n;i<list.length;i++){
+//         console.log(list(i))
+//     }
+//     temp[k]=list[i]
+//     k++
+//     for(j=0;j<n;j++){
+//         console.log(list[j])
+//     }
+//     temp[k]=list[j]
+//     k++
+//     return temp
+// }
+// console.log(rotate([3,4,5,6,7],3))
+
