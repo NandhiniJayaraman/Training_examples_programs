@@ -41,3 +41,10 @@ for i in range(1,n):
             print('*',end=' ')    
     print('')  
 
+n='1234'
+for i in range(0,len(n)):
+    for j in range(0,len(n)):
+        for k in range(0,len(n)):
+            if(i!=j and j!=k and k!=i):
+                print(n[i],n[j],n[k])
+
